@@ -1,0 +1,84 @@
+/* Global styles */
+.highlight {
+  background-color: rgb(255, 185, 185);
+  color: black;
+}
+
+.menu li a:hover {
+  background-color: rgb(255, 185, 185);
+  color: white;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.js-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.heading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+}
+
+.text-wrapper {
+  text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(14, 56, 129);
+}
+
+header {
+    background-color: rgb(0, 64, 99);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 23px;
+}
+
+nav a {
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(255, 185, 185)
+}
+
+
+
